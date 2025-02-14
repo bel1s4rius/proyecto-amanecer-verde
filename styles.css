@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #2c6e49;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #1b4332;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #40916c;
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 5px solid #2c6e49;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2c6e49;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #40916c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #2c6e49;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
